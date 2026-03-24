@@ -1,0 +1,29 @@
+{
+  "movies": [
+    {
+      "id": 2,
+      "title": "Spider-Man: No Way Home",
+      "director": "Jon Watts",
+      "image": "https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse4.mm.bing.net%2Fth%2Fid%2FOIP.q3gCIvuVjSMgAxbk0VBPHAHaEK%3Fpid%3DApi&sp=1774339719T3bdc6fb6f09b0460f9b1a973f4ea517910b962d6ef08d2b517b4a28d0cebb2d8",
+      "createdAt": "2026-03-23T09:30:00.000Z"
+    },
+    {
+      "title": "sadSDHASGDídg",
+      "director": "dsjhfaudfa",
+      "image": "https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fpisces.bbystatic.com%2Fimage2%2FBestBuy_US%2Fimages%2Fproducts%2F6455%2F6455135_sd.jpg&sp=1764483158Tde82af8a85ade81e99e93b27b85a0af024bd5df7e5230ae27ee66adede2a95db",
+      "id": 4
+    },
+    {
+      "title": "sđấ123123",
+      "director": "sdafasfads12312123",
+      "image": "https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.4GSMSLO41PiLz88uijT7_gHaHa%3Fpid%3DApi&sp=1774340840Td4a99a63126fda1d1be74f8325ce6b477e291ff7ee2c9723b9ff56f491e241ca",
+      "id": 5
+    },
+    {
+      "title": "12324324",
+      "director": "3487325235`",
+      "image": "https://images.unsplash.com/photo-1511381939415-c1b7f70f09b0",
+      "id": 6
+    }
+  ]
+}

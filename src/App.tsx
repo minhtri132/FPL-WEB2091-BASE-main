@@ -1,12 +1,18 @@
 import { Toaster } from "react-hot-toast";
 import { Link, Routes, Route } from "react-router-dom";
-import Add from "./pages/AddPage";
-import List from "./pages/ListPage";
+
 import EditPage from "./pages/EditPage";
+import ListPage from "./pages/ListPage";
+import AddPage from "./pages/AddPage";
+
+import Header from "./component/Header";
+import Login from "./component/Login";
 
 function App() {
   return (
     <>
+    <Header />
+    <Login />
       {/* NAVBAR */}
       <nav className="bg-blue-600 text-white shadow">
         <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
@@ -24,6 +30,9 @@ function App() {
             <Link to="/add" className="hover:text-gray-200">
               Thêm mới
             </Link>
+            <Link to="/login" className="hover:text-gray-200">
+              Đăng nhập
+            </Link>
           </div>
         </div>
       </nav>
@@ -39,14 +48,16 @@ function App() {
               </h1>
             }
           />
-          <Route path="/list" element={<List />} />
-          <Route path="/add" element={<Add />} />
+          <Route path="/list" element={<ListPage />} />
+          <Route path="/add" element={<AddPage />} />
           <Route path="/edit/:id" element={<EditPage />} />
+          <Route path="/login" element={<Login />} />
         </Routes>
       </div>
 
       <Toaster />
     </>
+    
   );
 }
 

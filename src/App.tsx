@@ -7,6 +7,8 @@ import AddPage from "./pages/AddPage";
 
 import Header from "./component/Header";
 import Login from "./component/Login";
+import Register from "./pages/Register";
+
 
 function App() {
   return (
@@ -33,6 +35,9 @@ function App() {
             <Link to="/login" className="hover:text-gray-200">
               Đăng nhập
             </Link>
+            <Link to="/register" className="hover:text-gray-200">
+              Đăng ký
+            </Link>
           </div>
         </div>
       </nav>
@@ -52,6 +57,7 @@ function App() {
           <Route path="/add" element={<AddPage />} />
           <Route path="/edit/:id" element={<EditPage />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
         </Routes>
       </div>
 

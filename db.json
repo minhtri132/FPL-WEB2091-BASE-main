@@ -25,5 +25,30 @@
       "image": "https://images.unsplash.com/photo-1511381939415-c1b7f70f09b0",
       "id": 6
     }
+  ],
+  "users": [
+    {
+      "email": "admin@gmail.com",
+      "password": "$2a$10$3cvf5QEZ67nFSzYpYScBiOcyghM9w/Y.2HoZs/9ZJC6qccHPv62Cq",
+      "id": 1
+    },
+    {
+      "email": "dohuuminhtri1322@gmail.com",
+      "password": "$2a$10$bxxaKxWgLWdWKX6/EUudluKlldrUhMJrxtpjQa0X9w5w0thaXKNoW",
+      "username": "trr",
+      "id": 2
+    },
+    {
+      "email": "dohuuminthr@gmail.com",
+      "password": "$2a$10$EHZcLOFwUUkAAaaa7ha8CevRxl9oAuofnyAPvqOsKATyUo/Nj46V6",
+      "username": "trr",
+      "id": 3
+    },
+    {
+      "email": "dohuuminhtri1322@gmailcom",
+      "password": "$2a$10$22EpFygIZ6bWuM8tXvXoRuwzNqjchN66mKTCClMK8k0I0L.o.kRqe",
+      "username": "trr",
+      "id": 4
+    }
   ]
 }
